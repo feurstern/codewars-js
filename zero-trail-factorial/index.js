@@ -6,13 +6,12 @@ const zeros = (n) => {
     // console.log(i);
     result = i * result;
   }
-
   result
     .toString()
     .split("")
     .forEach((x) => (x === "0" ? total++ : 0));
-
   return result;
 };
 
 console.log(zeros(30));
+
