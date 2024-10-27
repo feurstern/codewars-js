@@ -8,5 +8,8 @@ function chunkArrayInGroups(arr, size) {
   return newArr;
 }
 
-const t = chunkArrayInGroups([0, 1, 2, 3, 4, 5], 2);
+const t = chunkArrayInGroups([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], 4);
 console.log(t);
+const convertTest = (str) => {
+  return str.split("").toString();
+};

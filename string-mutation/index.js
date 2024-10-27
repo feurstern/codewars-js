@@ -1,6 +1,5 @@
 function mutation(arr) {
   let count = 0;
-
   arr[1]
     .toLowerCase()
     .split("")

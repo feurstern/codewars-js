@@ -1,0 +1,10 @@
+h1{
+    background: linear-gradient(to right, red,blue);
+    background-clip:text;
+    color: transparent;
+}
+
+body:has(option[value='dark']:checked){
+    background-color: black;
+    color:white;
+}
