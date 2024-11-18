@@ -8,3 +8,15 @@ body:has(option[value='dark']:checked){
     background-color: black;
     color:white;
 }
+
+h1:has(option[value="miku"] :checked){
+    color : black;
+    background-color: skyblue;    
+}
+
+h2:has(option[value="milu"] :checked){
+    color : skyblue;
+    
+}
+
+
