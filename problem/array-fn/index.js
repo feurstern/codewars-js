@@ -71,4 +71,4 @@ dataSet.map((x) =>
 
 const f1 = jobsData.filter((x) => x.name === "Rin");
 
-console.log(f1)
+console.log(f1);
