@@ -80,6 +80,62 @@ const t1 = {
 
 const answerListData = t1.data.answerList;
 
+const indicatorListProps =
+  [
+    ({
+      id: 239,
+      nama: "Kapasitas APIP",
+      presentase_bobot: 25,
+      count_question: 3,
+      answered: 0,
+      verified: 8,
+      completed: 0,
+      qa_verified: 0,
+      qa_completed: 0,
+      pic_verified: 0,
+      pic_completed: 0,
+    },
+    {
+      id: 240,
+      nama: "Penguatan Kelembagaan",
+      presentase_bobot: 25,
+      count_question: 2,
+      answered: 0,
+      verified: 5,
+      completed: 1,
+      qa_verified: 0,
+      qa_completed: 0,
+      pic_verified: 0,
+      pic_completed: 0,
+    },
+    {
+      id: 241,
+      nama: "Pengendalian dan Pengawasan",
+      presentase_bobot: 25,
+      count_question: 3,
+      answered: 3,
+      verified: 5,
+      completed: 2,
+      qa_verified: 0,
+      qa_completed: 0,
+      pic_verified: 0,
+      pic_completed: 0,
+    },
+    {
+      id: 242,
+      nama: "Koordinasi Pencegahan Korupsi",
+      presentase_bobot: 25,
+      count_question: 2,
+      answered: 0,
+      verified: 5,
+      completed: 1,
+      qa_verified: 0,
+      qa_completed: 0,
+      pic_verified: 0,
+      pic_completed: 0,
+    })
+  ];
+
 const t2 = {
   id: 404140,
   id_survey: 5993,

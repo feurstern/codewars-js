@@ -56,3 +56,4 @@ const divideBy = (x) => {
 };
 
 console.log(seven(plus(five())));
+
