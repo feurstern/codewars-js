@@ -15,6 +15,7 @@ const fn = (str) => {
   return Object.fromEntries(
     sortedEntries.filter((x, i) => i == 0 || i == 1 || i == 2)
   );
+
   // Converting sorted entries back to an object
   return Object.fromEntries(sortedEntries);
 };
