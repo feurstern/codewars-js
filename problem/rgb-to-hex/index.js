@@ -67,8 +67,15 @@ const fnConvert = (r, g, b) => {
     },
   ];
 
-  result.push(Math.floor(r > 255 ? 15 : r / 16), r / 16 > 16 ? 15 : r % 16);
-  result.push(Math.floor(g / 16 > 16 ? 15 : g / 16), g / 16 > 16 ? 15 : g % 16);
+  r > 0
+    ? result.push(Math.floor(r > 255 ? 15 : r / 16), r / 16 > 16 ? 15 : r % 16)
+    : result.push(0, 0);
+  g > 0
+    ? result.push(
+        Math.floor(g / 16 > 16 ? 15 : g / 16),
+        g / 16 > 16 ? 15 : g % 16
+      )
+    : result.push(0, 0);
   b > 0
     ? result.push(
         Math.floor(b / 16 > 16 ? 15 : b / 16),
@@ -87,4 +94,4 @@ const fnConvert = (r, g, b) => {
   return hexDeximal;
 };
 
-console.log(fnConvert(300, 255, 255));
+console.log(fnConvert(261, -29, 287));
