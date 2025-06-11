@@ -18,6 +18,15 @@ class ListNode {
   getFirst() {
     return this.next;
   }
+  addition(x, y) {
+    return x + y;
+  }
+}
+
+class Player {
+  constructor(parameters) {
+    
+  }
 }
 
 let node1 = new ListNode(2);
@@ -33,3 +42,5 @@ console.log("first linked list:", list.getFirst());
 console.log("node list", list);
 list.clear();
 console.log("node list after", list);
+
+console.log("addition", list.addition(list.size(), 4));
