@@ -1,0 +1,24 @@
+#include <iostream>
+
+int findTheLargestNumber(int *arr)
+{
+
+    int highest = 0;
+
+    for (int i = 0; i < sizeof(arr); i++)
+    {
+        if (highest >= arr[i])
+        {
+            highest = arr[i];
+        }
+    }
+    return highest;
+}
+
+int main()
+{
+
+    int arr[5] = {7, 42, 99, 124, 23};
+
+    std::cout << "The largerst number is :" << findTheLargestNumber(arr);
+}
