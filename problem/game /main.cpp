@@ -3,12 +3,12 @@
 
 int main(void)
 {
-    InitWindow(800, 450, "raylib [core] example - basic window");
+    InitWindow(800, 450, "Rats Plague");
 
     int speedOfLight = 3E8;
 
     std::cout << speedOfLight << std::endl;
-    
+
     while (!WindowShouldClose())
     {
         BeginDrawing();

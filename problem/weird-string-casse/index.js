@@ -1,4 +1,5 @@
 const t = "hatsune miku is so gorgeous xixixi";
+
 const strConvert = (str) => {
   let result = [];
   str.split(" ").forEach((x) => {
@@ -10,7 +11,6 @@ const strConvert = (str) => {
     });
     result.push(" ");
   });
-
   return result.join("").toString();
 };
 

@@ -15,14 +15,12 @@ const fnConvert = (num) => {
     { num: 1, romanLetter: "I" },
   ];
   result = "";
-
   for (const { num: value, romanLetter } of romanSymbols) {
     while (num >= value) {
       result += romanLetter;
       num -= value;
     }
   }
-
   return result;
 };
 

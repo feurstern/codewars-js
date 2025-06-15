@@ -20,5 +20,11 @@ int main()
 
     int arr[5] = {7, 42, 99, 124, 23};
 
+    int arrSize;
+    std::cout << "Enter the array size:" << std::endl;
+    std::cin >> arrSize;
+
+    int arr2[arrSize];
+
     std::cout << "The largerst number is :" << findTheLargestNumber(arr);
 }
