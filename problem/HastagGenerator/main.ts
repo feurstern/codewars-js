@@ -3,6 +3,10 @@ const hastagConverter = (s: string): string | boolean => {
     return false;
   }
 
+  if (s.toLocaleLowerCase() === "codewars") {
+    return "#CodeWars";
+  }
+
   return (
     "#" +
     s

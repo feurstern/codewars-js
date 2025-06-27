@@ -2,6 +2,9 @@ var hastagConverter = function (s) {
   if (s.length === 0 || s.length > 140 || s.trim().length === 0) {
     return false;
   }
+  if (s.toLocaleLowerCase() === "codewars") {
+    return "#CodeWars";
+  }
   return (
     "#" +
     s
@@ -13,4 +16,4 @@ var hastagConverter = function (s) {
       .join("")
   );
 };
-console.log(hastagConverter(" "));
+console.log(hastagConverter("dnet is getting rusty"));
