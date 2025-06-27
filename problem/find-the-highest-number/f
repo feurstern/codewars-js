@@ -25,6 +25,5 @@ int main()
     std::cin >> arrSize;
 
     int arr2[arrSize];
-
     std::cout << "The largerst number is :" << findTheLargestNumber(arr);
 }

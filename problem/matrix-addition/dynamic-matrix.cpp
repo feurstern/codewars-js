@@ -7,6 +7,7 @@ std::vector<std::vector<int>> Addition(std::vector<std::vector<int>> vector_1, s
     int rows = vector_1.size();
     int cols = vector_1[0].size();
 
+    std::vector<std::vector<int>> z;
     std::vector<std::vector<int>> arr(rows, std::vector<int>(cols));
 
     for (int i = 0; i < rows; i++)

@@ -4,9 +4,9 @@ const alphbetPosition = (text: string): string => {
   return text
     .toLocaleLowerCase()
     .split("")
-    .filter((char) => char >= "a" && char <= "z")
+    .filter((x) => x >= "a" && x <= "z")
     .map((x) => x.charCodeAt(0) - aCode + 1)
-    .join("");
+    .join(" ");
 };
 
 console.log(alphbetPosition("hatsune miku 123"));
